@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mania Rubro Negro</title>
+    <link rel="shortcut icon" type="x-icon" href="imgcam/logo_preta.png">
+    <link rel="stylesheet" href="_css/style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="imgcam/logo branca.png" width="125px">
+               </div> 
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a> </li>
+                        <li><a href="cursos.html">Produtos</a> </li>
+                        <li><a href="apoiadores.html">Patrocinadores</a> </li>
+                        <li><a href="conta.html">Conta</a> </li>
+                    </ul>
+                </nav>
+        </div>  
+
+    </div>
+<!------produtos separados detalhes-------->
+<div class="small-container single-product">
+    <div class="row">
+        <div class="col-2">
+              <img src="RedStore_Img/images/IMG10.png" width="100%" id="Productimg">
+
+              <div class="small-img-row">
+                  <div class="small-img-col">
+                      <img src="RedStore_Img/images/IMG2.png" width="100%" class="small-img">
+                  </div>
+                  <div class="small-img-col">
+                    <img src="RedStore_Img/images/IMG3.png" width="100%"  class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="RedStore_Img/images/IMG4.png" width="100%"  class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="RedStore_Img/images/IMG6.png" width="100%"  class="small-img">
+                </div>
+              </div>
+
+
+
+        </div>
+        <div class="col-2">
+               <p>Home / Produtos</p>
+               <h1> Kit Flamengo Completo</h1>
+               <h4> R$500.00</h4>
+               <select>
+                   <option>Selecionar o Tamanho</option>
+                   <option>PP</option>
+                   <option>P</option>
+                   <option>M</option>
+                   <option>G</option>
+                   <option>GG</option>
+               </select>
+               <input type="number" value="1">
+               <a href="carrinho.html" class="btn-car">Adicionar Ao Carrinho</a>
+               <h3>Detalhes do Produto</h3>
+               <p>Você vai Receber um Kit completo do Flamengo Assinado pelo Gabigol, contendo as melhores mercadorias: (Calça, Blusa, Chinelo, Logo, Adesivos)</p>
+        </div>
+    </div>
+</div>   
+<!-------titulo----->
+            <div class="small-container">
+                <div class="row row-2">
+                    <h2>Produtos Relacionados</h2>
+                    <p>Ver mais</p>
+                </div>
+            </div>
+<!-------Produtos------->
+
+<div class="row">
+    <div class="col-4">
+      <img src="RedStore_Img/images/IMG8.png">
+        <h4><a href="produtos_detalhes.html">Regata Flamengo com Borda</a></h4>
+        <div class="ratin">
+
+        </div>
+        <p>$100.00</p>
+    </div>
+    <div class="col-4">
+       <img src="RedStore_Img/images/BOT1.png">
+         <h4><a href="produtos_detalhes.html">Chuteira Tecnologia I.A</a></h4>
+         <div class="ratin">
+
+         </div>
+         <p>$199.99</p>
+     </div>
+     <div class="col-4">
+       <img src="RedStore_Img/images/IMG7.png">
+         <h4><a href="produtos_detalhes.html">Casaco Flamengo Calor</a></h4>
+         <div class="ratin">
+
+         </div>
+         <p>$75.00</p>
+     </div>
+     <div class="col-4">
+       <img src="RedStore_Img/images/BOT3.png">
+         <h4><a href="produtos_detalhes.html">Crocs(Aberto) Flamengo Tecnologia Anti-inflamavel</a></h4>
+         <div class="ratin">
+
+         </div>
+         <p>$5000.00</p>
+     </div>
+</div>
+
+     </div>
+   <!-----Pezinho----->
+
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Baixe nosso aplicativo</h3>
+                <p> Baixe nosso aplicativo para Android e ios disponível para celulares</p>
+                <div class="app-logo">
+                    <img src="_images/mobile1.png">
+                    <img src="_images/mobile2.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="imgcam/logo branca.png">
+                <p> Nosso proposito é uma forma sustentável de dar os prazeres e benefícios de uma boa qualidade de produtos.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Links Uteis</h3>
+                <ul>
+                    <li>Cupons</li>
+                    <li>Post das redes sociais</li>
+                    <li>Politica de retorno</li>
+                    <li>Se torne afiliado</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3> Nos siga nas redes sociais</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 -  Mania Rubro Negro</p>
+    </div>
+</div>
+
+
+<!--------java nos produtos------->
+<script>
+     var Productimg = document.getElementById("Productimg");
+     var SmallImg = document.getElementsByClassName("small-img");
+
+       SmallImg[0].onclick = function()
+       {
+           Productimg.src = SmallImg[0].src;
+       }
+       SmallImg[1].onclick = function()
+       {
+           Productimg.src = SmallImg[1].src;
+       }
+       SmallImg[2].onclick = function()
+       {
+           Productimg.src = SmallImg[2].src;
+       }
+       SmallImg[3].onclick = function()
+       {
+           Productimg.src = SmallImg[3].src;
+       }
+
+</script>
+
+</body>
+</html>
